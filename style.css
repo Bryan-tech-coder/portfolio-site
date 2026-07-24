@@ -138,7 +138,23 @@ a {
 }
 
 .hero-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+.hero-text {
   max-width: 42rem;
+}
+
+.hero-photo {
+  flex-shrink: 0;
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid var(--border);
 }
 
 .eyebrow {
@@ -378,6 +394,21 @@ a {
 
   .hero {
     padding: 4rem 0 3rem;
+  }
+
+  .hero-inner {
+    flex-direction: column-reverse;
+    text-align: center;
+    gap: 2rem;
+  }
+
+  .hero-photo {
+    width: 10rem;
+    height: 10rem;
+  }
+
+  .hero-actions {
+    justify-content: center;
   }
 
   .section {
