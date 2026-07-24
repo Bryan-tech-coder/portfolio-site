@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bryan Ramos — Software Developer</title>
+  <meta name="description" content="Bryan Ramos — full-stack software developer from Puerto Rico. Portfolio of Next.js, TypeScript, and PostgreSQL projects." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container header-inner">
+      <a href="#" class="logo">Bryan Ramos</a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="nav" id="nav">
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <p class="eyebrow">Software Developer · Puerto Rico</p>
+        <h1>I build full-stack web apps that people actually use.</h1>
+        <p class="hero-sub">
+          From C and shell fundamentals to shipping production apps with
+          Next.js, TypeScript, and PostgreSQL — I like turning real problems
+          into working software.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">View my work</a>
+          <a href="#contact" class="btn btn-outline">Get in touch</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <h2 class="section-title">Projects</h2>
+        <p class="section-sub">Two full-stack apps, built end to end and deployed in production.</p>
+
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-card-body">
+              <h3>Job Tracker</h3>
+              <p>
+                A Kanban-style job application tracker. Drag applications
+                through Wishlist → Applied → Interviewing → Offer → Rejected,
+                with a dashboard showing response rate and per-status counts.
+              </p>
+              <ul class="tag-list">
+                <li>Next.js</li>
+                <li>TypeScript</li>
+                <li>PostgreSQL</li>
+                <li>Prisma</li>
+                <li>NextAuth</li>
+              </ul>
+            </div>
+            <div class="project-card-links">
+              <a href="https://job-tracker-chi-roan.vercel.app" target="_blank" rel="noopener noreferrer">Live demo →</a>
+              <a href="https://github.com/Bryan-tech-coder/job-tracker" target="_blank" rel="noopener noreferrer">Code →</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card-body">
+              <h3>Finance Tracker</h3>
+              <p>
+                A personal finance dashboard. Log income and expenses, import
+                a bank CSV with automatic category guessing, and track
+                savings goals against a spending-by-category chart.
+              </p>
+              <ul class="tag-list">
+                <li>Next.js</li>
+                <li>TypeScript</li>
+                <li>PostgreSQL</li>
+                <li>Prisma</li>
+                <li>Recharts</li>
+              </ul>
+            </div>
+            <div class="project-card-links">
+              <a href="https://finance-tracker-rust-sigma.vercel.app" target="_blank" rel="noopener noreferrer">Live demo →</a>
+              <a href="https://github.com/Bryan-tech-coder/finance-tracker" target="_blank" rel="noopener noreferrer">Code →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section section-muted">
+      <div class="container">
+        <h2 class="section-title">Skills</h2>
+        <p class="section-sub">Tools and languages I work with regularly.</p>
+
+        <div class="skills-grid">
+          <div class="skill-group">
+            <h3>Full-stack</h3>
+            <ul class="tag-list">
+              <li>TypeScript</li>
+              <li>JavaScript (ES6)</li>
+              <li>Next.js</li>
+              <li>React</li>
+              <li>Node.js</li>
+              <li>Tailwind CSS</li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <h3>Data</h3>
+            <ul class="tag-list">
+              <li>PostgreSQL</li>
+              <li>Prisma</li>
+              <li>MongoDB</li>
+              <li>SQL</li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <h3>Foundations</h3>
+            <ul class="tag-list">
+              <li>Python</li>
+              <li>C</li>
+              <li>Linux</li>
+              <li>Git &amp; GitHub</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container contact-inner">
+        <h2 class="section-title">Let's connect</h2>
+        <p class="section-sub">
+          Open to internships, junior roles, and anything that lets me build
+          real things with a real team.
+        </p>
+        <div class="contact-links">
+          <a
+            href="https://www.linkedin.com/in/bryan-ramos-6148943a5"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn-primary"
+          >
+            LinkedIn
+          </a>
+          <a
+            href="https://github.com/Bryan-tech-coder"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn-outline"
+          >
+            GitHub
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Bryan Ramos. Built with HTML, CSS, and JavaScript.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
