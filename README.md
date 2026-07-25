@@ -2,7 +2,7 @@
 
 Personal portfolio landing page — hero, featured projects, skills, and contact links. Static HTML, CSS, and vanilla JavaScript, no build step or framework.
 
-**Live:** _add your Vercel URL after deploying_
+**Live:** [portfolio-site-topaz-theta.vercel.app](https://portfolio-site-topaz-theta.vercel.app)
 
 ## Structure
 
